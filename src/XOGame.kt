@@ -24,18 +24,18 @@ class XOGame {
                // print(detectDraw())
                 putOX(row , col)
             }else{
-                print("input {in } =>")
+                //print("input {in } =>")
                 showError()
             }
 
         }catch (e : Throwable) {
-            print("input {out } => $e")
+           // print("input {out } => $e")
             showError()
         }
     }
     fun putOX(x: Int, y: Int) {
         if( table[x-1][y-1] !== "-"){
-            print("putOX {in } =>")
+           // print("putOX {in } =>")
             showError()
 
         }else{
