@@ -12,6 +12,7 @@ class XOGame {
     }
     fun input() {
         try {
+            print("Please input Row Col : ")
             val input = readLine()!!
             val rowcol:List<String> = input.split(" ")
             if(rowcol.size != 2){
@@ -47,6 +48,7 @@ class XOGame {
     }
 
     fun showError(){
+        println("ERROR: You're enter the wrong number.")
         input()
     }
 
