@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65cafbb8-ced3-45cc-aabf-1289e53307b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OXgame/XOGameKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OXgame/META-INF/OXgame.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OXgame/META-INF/OXgame.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OXgame/XOGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OXgame/XOGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/XOGame.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/XOGame.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,7 +79,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
