@@ -18,21 +18,24 @@ class XOGame {
             if(rowcol.size != 2){
                 showError()
             }
-            val row = rowcol.get(0).toInt()
-            val col = rowcol.get(1).toInt()
+            val row = rowcol?.get(0).toInt()
+            val col = rowcol?.get(1).toInt()
             if ((col > 0 && col < 4 ) && (row > 0 && row < 4 )){
-                print(detectDraw())
+               // print(detectDraw())
                 putOX(row , col)
             }else{
+                print("input {in } =>")
                 showError()
             }
 
         }catch (e : Throwable) {
+            print("input {out } => $e")
             showError()
         }
     }
     fun putOX(x: Int, y: Int) {
         if( table[x-1][y-1] !== "-"){
+            print("putOX {in } =>")
             showError()
 
         }else{
